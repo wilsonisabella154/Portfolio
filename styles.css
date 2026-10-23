@@ -349,8 +349,9 @@ path.s-ink-stroke { fill: none; }
 .cert-link { margin-top: auto; padding-top: 8px; font-size: .875rem; }
 
 .progress-note {
-  width: min(100%, 36rem);
-  margin: 28px 0 0 auto;
+  width: min(100%, 40rem);
+  margin: 28px auto 0;
+  text-align: center;
 }
 .progress-kicker {
   margin-bottom: 8px;
@@ -437,7 +438,7 @@ path.s-ink-stroke { fill: none; }
   .hero-visual { width: min(70vw, 320px); justify-self: start; }
   .skills-grid, .certs-grid { grid-template-columns: 1fr 1fr; }
   .skill-group:last-child { grid-column: 1 / -1; }
-  .progress-note { width: 100%; }
+  .progress-note { width: min(100%, 40rem); margin-inline: auto; }
   .about-body { grid-template-columns: 1fr; }
   .headshot { max-width: 360px; }
 }
